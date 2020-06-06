@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "385314725921",
+    "firebase_url": "https://kakoapp-locabotto.firebaseio.com",
+    "project_id": "kakoapp-locabotto",
+    "storage_bucket": "kakoapp-locabotto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385314725921:android:68ebaa2757fd4414bc4360",
+        "android_client_info": {
+          "package_name": "com.kako351.locabotto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385314725921-u8eve6e4o8i3lkkp4i7tgaqccd01r8r7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kako351.locabotto",
+            "certificate_hash": "0b3bac0788911dd1aced9bd90e4071129b3140cc"
+          }
+        },
+        {
+          "client_id": "385314725921-u73iqkmeojlolnuom2tuvo6i65auhiha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDweNDge56Si8ZbFe2mddFekexheQ9mmkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385314725921-u73iqkmeojlolnuom2tuvo6i65auhiha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
