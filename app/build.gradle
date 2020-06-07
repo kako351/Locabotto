@@ -18,9 +18,12 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
+        resValue "string", "facebook_application_id", System.getenv("LOCABOTTO_FACEBOOK_APPLICATION_ID")
+        resValue "string", "facebook_login_protocol_scheme", System.getenv("LOCABOTTO_FACEBOOK_LOGIN_PROTPCOL_SCHEME")
+
         manifestPlaceholders = [
-                LOCABOTTO_FACEBOOK_APPLICATION_ID: System.getenv("LOCABOTTO_FACEBOOK_APPLICATION_ID"),
-                LOCABOTTO_FACEBOOK_LOGIN_PROTPCOL_SCHEME: System.getenv("LOCABOTTO_FACEBOOK_LOGIN_PROTPCOL_SCHEME")
+                LOCABOTTO_FACEBOOK_APPLICATION_ID: "@string/facebook_application_id",
+                LOCABOTTO_FACEBOOK_LOGIN_PROTPCOL_SCHEME: "@string/facebook_login_protocol_scheme"
         ]
     }
 
