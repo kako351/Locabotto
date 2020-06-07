@@ -10,6 +10,7 @@ ext {
             "koin": "2.1.5",
             "firebase-ui-auth": "4.3.1",
             "facebook-android-sdk": "7.0.0",
-            "twitter-core": "3.2.0"
+            "twitter-core": "3.2.0",
+            "timber": "4.7.1"
     ]
 }
