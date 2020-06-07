@@ -11,6 +11,9 @@ jobs:
           name: chmod permissions
           command: chmod +x ./gradlew
       - run:
+          name: copy google-service
+          command: echo ${GoogleServicesJson} | base64 --decode --ignore-garbage > ./app/google-services.json
+      - run:
           name: Build debug APK
           command: |
             ./gradlew :app:assembleDebug
