@@ -1,0 +1,15 @@
+ext {
+    project = [
+            "versionName": "1.0.0"
+    ]
+    dependencies = [
+            "firebase-core": "17.4.3",
+            "firebase-analytics": "17.4.3",
+            "firebase-database": "19.3.0",
+            "firebase-auth": "19.3.1",
+            "koin": "2.1.5",
+            "firebase-ui-auth": "4.3.1",
+            "facebook-android-sdk": "7.0.0",
+            "twitter-core": "3.2.0"
+    ]
+}
